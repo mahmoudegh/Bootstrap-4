@@ -116,7 +116,7 @@ body {
 .slider {
   height: 70vh;
 }
-.carousel {
+.slider .carousel {
   height: 100%;
 }
 .slider .carousel-inner {
@@ -811,7 +811,7 @@ body {
     font-size: 40px;
     top: 15%;
   }
-  .carousel-indicators {
+  .slider .carousel-indicators {
     bottom: -10px;
   }
   .overview .h1 {
@@ -838,6 +838,9 @@ body {
     margin-bottom: 35px;
     line-height: 23px;
   }
+  .testimonials .carousel-caption {
+    top: 40%;
+  }
   .footer h4 {
     margin-bottom: 15px;
   }
@@ -863,7 +866,7 @@ body {
     font-size: 40px;
     top: 15%;
   }
-  .carousel-indicators {
+  .slider .carousel-indicators {
     bottom: -10px;
   }
   .slider i {
@@ -893,6 +896,9 @@ body {
     margin-bottom: 35px;
     line-height: 23px;
   }
+  .testimonials .carousel-caption {
+    top: 40%;
+  }
   .footer h4 {
     margin-bottom: 15px;
   }
@@ -901,12 +907,6 @@ body {
   }
   .icon-bar p {
     margin-bottom: 10px;
-  }
-  .slider {
-    /* height: 70vh; */
-  }
-  .carousel-inner {
-    /* height: 70vh; */
   }
 }
 
@@ -937,6 +937,9 @@ body {
   .you-think p {
     margin-bottom: 35px;
     line-height: 23px;
+  }
+  .testimonials .carousel-caption {
+    top: 40%;
   }
   .footer h4 {
     margin-bottom: 15px;
