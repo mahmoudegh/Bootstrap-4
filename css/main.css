@@ -113,8 +113,18 @@ body {
 /* End Navbar */
 
 /* Start Slider */
+.slider {
+  height: 70vh;
+}
+.carousel {
+  height: 100%;
+}
 .slider .carousel-inner {
   overflow: hidden;
+  height: 100%;
+}
+.slider .carousel-item {
+  height: 100%;
 }
 .slider .carousel-item img {
   height: 100%;
@@ -138,8 +148,7 @@ body {
   font-size: 68px;
   font-weight: bold;
   text-align: left;
-  top: 50%;
-  margin-top: -153.25px;
+  top: 25%;
 }
 
 .slider .carousel-caption p {
@@ -799,7 +808,7 @@ body {
   }
 
   .slider .carousel-caption {
-    font-size: 50px;
+    font-size: 40px;
   }
   .overview .h1 {
     font-size: 24px;
@@ -848,7 +857,6 @@ body {
 
   .slider .carousel-caption {
     font-size: 40px;
-    top: 50%;
   }
   .slider i {
     display: none;
@@ -887,10 +895,10 @@ body {
     margin-bottom: 10px;
   }
   .slider {
-    height: 70vh;
+    /* height: 70vh; */
   }
   .carousel-inner {
-    height: 70vh;
+    /* height: 70vh; */
   }
 }
 
