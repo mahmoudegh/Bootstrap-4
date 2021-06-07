@@ -886,6 +886,12 @@ body {
   .icon-bar p {
     margin-bottom: 10px;
   }
+  .slider {
+    height: 70vh;
+  }
+  .carousel-inner {
+    height: 70vh;
+  }
 }
 
 @media (min-width: 381px) and (max-width: 575px) /* xs screen */ {
